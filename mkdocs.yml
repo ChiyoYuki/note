@@ -35,21 +35,6 @@ theme:
     - navigation.top # 回到顶部
     - toc.follow # 边栏自动滚动
 
-extra:
-  alternate:
-    - name: 简体中文
-      link: /zh-cn/
-      lang: zh
-    - name: English
-      link: /en-gb/
-      lang: en
-    - name: 日本語
-      link: /ja-jp/
-      lang: ja
-    - name: 繁體中文
-      link: /zh-tw/
-      lang: zh-TW
-
 plugins:
   - search
 
