@@ -1,0 +1,71 @@
+site_name: 千代雪のノート
+site_url: https://chiyoyuki.github.io/
+
+# 以下为仓库信息
+repo_url: https://github.com/chiyoyuki/chiyoyuki.github.io/
+repo_name: chiyoyuki/chiyoyuki.github.io/
+
+theme:
+  language: zh
+  name: material # 设定主题为 material
+  # custom_dir: overrides # 启用评论需要此行
+  palette: #日夜模式切换
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue #基调色
+      accent: pink #强调色
+      toggle:
+        icon: material/weather-sunny
+        name: 让夜幕降下来吧
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo #基调色
+      accent: red #强调色
+      toggle:
+        icon: material/weather-night
+        name: 让太阳升起来吧
+  icon:
+    repo: fontawesome/brands/github # 设置git仓库图标
+  features:
+    - content.code.copy # 启用代码块复制按钮，尽管我觉得用不上
+    - navigation.footer # 启用页尾上一页下一页按钮
+    - navigation.instant # 内部链接即时加载
+    - navigation.tabs # 页顶导航栏
+    - navigation.tabs.sticky # 粘性导航栏
+    - navigation.top # 回到顶部
+    - toc.follow # 边栏自动滚动
+
+extra:
+  alternate:
+    - name: 简体中文
+      link: /zh-cn/
+      lang: zh
+    - name: English
+      link: /en-gb/
+      lang: en
+    - name: 日本語
+      link: /ja-jp/
+      lang: ja
+    - name: 繁體中文
+      link: /zh-tw/
+      lang: zh-TW
+
+plugins:
+  - search
+
+markdown_extensions: # markdown扩展插件
+  - admonition # 启用注释语法扩展
+  - pymdownx.arithmatex: # 数学公式支持
+      generic: true
+  - pymdownx.caret # 下划线与上标
+  - pymdownx.details # 启用注释语法扩展
+  - pymdownx.mark # 强调
+  - pymdownx.superfences # 启用注释语法扩展
+  - pymdownx.tilde # 删除线与下标
+  - meta #waline需要，参见https://github.com/squidfunk/mkdocs-material/discussions/4166
+
+extra_javascript: #js文件
+  - javascripts/mathjax.js # 数学公式支持
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # 数学公式支持
+
+
