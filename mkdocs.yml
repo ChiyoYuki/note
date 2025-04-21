@@ -53,4 +53,50 @@ extra_javascript: #js文件
   - javascripts/mathjax.js # 数学公式支持
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # 数学公式支持
 
+nav:
+  - "index.md"
+  - 数学:
+    - 代数:
+      - "Algebra/index.md"
+    - 初等数论:
+      - "Number_Theory/index.md"
+    - 微积分:
+      - "Calculus/index.md"
+    - 概率统计:
+      - "Probability_and_Statistics/index.md"
+    - 随机过程:
+        - "Stochastic_Process/index.md"
+    - 常微分方程:
+      - "ODE/index.md"
+    - 数学物理方法:
+      - "Mathematical_Physics/index.md"
+    - 偏微分方程: 
+      - "PDE/index.md"
+    - 微分方程数值解:
+      - "Numerical_Solutions_of_PDE/index.md"
+    - 微分几何:
+      - "Differentual_Grometry/index.md"
+    - 拓扑学基础:
+      - "Topology/index.md"
+    - 实变函数:
+      - "Real_Analysis/index.md"
+    - 泛函分析:
+      - "Function_Analysis/index.md"
+  - 计算机:
+    - 数字电路:
+      - "Logic_Circuit/index.md"
+    - 计算机系统:
+      - "CSAPP/index.md"
+    - 数据结构与算法:
+      - "DS_and_A/index.md"
+    - 计算机网络:
+      - "Computer_Network/index.md"
+    - 操作系统:
+      - "Operating_System/index.md"
+    - 信息论:
+      - "Information_Theory/index.md"
+    - 前端:
+      - "Front_end/index.md"
+  - 日语:
+    - "Japanese/index.md"
 
