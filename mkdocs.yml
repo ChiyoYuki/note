@@ -55,6 +55,8 @@ extra_javascript: #js文件
 
 nav:
   - "index.md"
+  - 有关该网站:
+    - "time.md"
   - 数学:
     - 抽象代数:
       - "Abstract_Algebra/index.md"
