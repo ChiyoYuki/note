@@ -55,6 +55,8 @@ extra_javascript: #js文件
 
 nav:
   - "index.md"
+  - 有关该网站:
+    - "time.md"
   - 数学:
     - 抽象代数:
       - "Abstract_Algebra/index.md"
@@ -80,6 +82,12 @@ nav:
       - "Topology/index.md"
     - 实变函数:
       - "Real_Analysis/index.md"
+      - "Real_Analysis/1.md"
+      - "Real_Analysis/2.md"
+      - "Real_Analysis/3.md"
+      - "Real_Analysis/4.md"
+      - "Real_Analysis/5.md"
+      - "Real_Analysis/6.md"
     - 泛函分析:
       - "Function_Analysis/index.md"
     - 概率统计:
