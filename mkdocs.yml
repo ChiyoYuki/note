@@ -60,8 +60,9 @@ nav:
   - 临时博客:
     - "blog/index.md"
   - 数学:
-  #   - 抽象代数:
-  #     - "Abstract_Algebra/index.md"
+    - 抽象代数:
+      - "Abstract_Algebra/index.md"
+      - "Abstract_Algebra/0.md"
   #   - 线性代数:
   #     - "Linear_Algebra/index.md"
   #   - 离散数学:
