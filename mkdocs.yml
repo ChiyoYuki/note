@@ -57,29 +57,31 @@ nav:
   - "index.md"
   - 有关该网站:
     - "time.md"
+  - 临时博客:
+    - "blog/index.md"
   - 数学:
-    - 抽象代数:
-      - "Abstract_Algebra/index.md"
-    - 线性代数:
-      - "Linear_Algebra/index.md"
-    - 离散数学:
-      - "Discrete_Mathematics/index.md"
-    - 初等数论:
-      - "Number_Theory/index.md"
-    - 微积分:
-      - "Calculus/index.md" 
-    - 常微分方程:
-      - "ODE/index.md"
-    - 数学物理方法:
-      - "Mathematical_Physics/index.md"
-    - 偏微分方程: 
-      - "PDE/index.md"
-    - 微分方程数值解:
-      - "Numerical_Solutions_of_PDE/index.md"
-    - 微分几何:
-      - "Differentual_Grometry/index.md"
-    - 拓扑学基础:
-      - "Topology/index.md"
+  #   - 抽象代数:
+  #     - "Abstract_Algebra/index.md"
+  #   - 线性代数:
+  #     - "Linear_Algebra/index.md"
+  #   - 离散数学:
+  #     - "Discrete_Mathematics/index.md"
+  #   - 初等数论:
+  #     - "Number_Theory/index.md"
+  #   - 微积分:
+  #     - "Calculus/index.md" 
+  #   - 常微分方程:
+  #     - "ODE/index.md"
+  #   - 数学物理方法:
+  #     - "Mathematical_Physics/index.md"
+  #   - 偏微分方程: 
+  #     - "PDE/index.md"
+  #   - 微分方程数值解:
+  #     - "Numerical_Solutions_of_PDE/index.md"
+  #   - 微分几何:
+  #     - "Differentual_Grometry/index.md"
+  #   - 拓扑学基础:
+  #     - "Topology/index.md"
     - 实变函数:
       - "Real_Analysis/index.md"
       - "Real_Analysis/1.md"
@@ -88,36 +90,36 @@ nav:
       - "Real_Analysis/4.md"
       - "Real_Analysis/5.md"
       - "Real_Analysis/6.md"
-    - 泛函分析:
-      - "Function_Analysis/index.md"
-    - 概率统计:
-      - "Probability_and_Statistics/index.md"
-    - 随机过程: 
-      - "Stochastic_Process/index.md"
-  - 物理学: 
-    - 力学:
-      - "Mechanics/index.md"
-    - 电磁学: 
-      - "Electricity_Magnetism/index.md"
-    - 波动学:
-      - "Waves/index.md"
+  #   - 泛函分析:
+  #     - "Function_Analysis/index.md"
+  #   - 概率统计:
+  #     - "Probability_and_Statistics/index.md"
+  #   - 随机过程: 
+  #     - "Stochastic_Process/index.md"
+  # - 物理学: 
+  #   - 力学:
+  #     - "Mechanics/index.md"
+  #   - 电磁学: 
+  #     - "Electricity_Magnetism/index.md"
+  #   - 波动学:
+  #     - "Waves/index.md"
   - 计算机:
-    - 工具:
-      - "Missing_Semester/index.md"
-    - 数字电路:
-      - "Logic_Circuit/index.md"
-    - 计算机系统:
-      - "CSAPP/index.md"
-    - 计算机体系结构:
-      - "Computer_Architecture/index.md"
-    - 数据结构与算法:
-      - "DS_and_A/index.md"
-    - 计算机网络:
-      - "Computer_Network/index.md"
-    - 操作系统:
-      - "Operating_System/index.md"
-    - 信息论:
-      - "Information_Theory/index.md"
+  #   - 工具:
+  #     - "Missing_Semester/index.md"
+  #   - 数字电路:
+  #     - "Logic_Circuit/index.md"
+  #   - 计算机系统:
+  #     - "CSAPP/index.md"
+  #   - 计算机体系结构:
+  #     - "Computer_Architecture/index.md"
+  #   - 数据结构与算法:
+  #     - "DS_and_A/index.md"
+  #   - 计算机网络:
+  #     - "Computer_Network/index.md"
+  #   - 操作系统:
+  #     - "Operating_System/index.md"
+  #   - 信息论:
+  #     - "Information_Theory/index.md"
     - Web 开发:
       - "Web/index.md" 
       - "Web/1.md" 
