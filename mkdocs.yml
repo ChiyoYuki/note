@@ -60,7 +60,12 @@ nav:
   - 数学:
     - 抽象代数:
       - "Abstract_Algebra/index.md"
-      - "Abstract_Algebra/0.md"
+      - "INTRODUCTION: Prerequisites and preliminaries":
+        - "Abstract_Algebra/0.md"
+        - "Abstract_Algebra/0-1.md"
+        - "Abstract_Algebra/0-2.md"
+        - "Abstract_Algebra/0-3.md"
+        - "Abstract_Algebra/0-4.md"
   #   - 线性代数:
   #     - "Linear_Algebra/index.md"
   #   - 离散数学:
