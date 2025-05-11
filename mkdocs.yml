@@ -67,6 +67,8 @@ nav:
         - "Abstract_Algebra/0-3.md"
         - "Abstract_Algebra/0-4.md"
         - "Abstract_Algebra/0-5.md"
+      - "Groups":
+        - "Abstract_Algebra/20250218.md"
   #   - 线性代数:
   #     - "Linear_Algebra/index.md"
   #   - 离散数学:
@@ -75,8 +77,9 @@ nav:
   #     - "Number_Theory/index.md"
   #   - 微积分:
   #     - "Calculus/index.md" 
-  #   - 常微分方程:
-  #     - "ODE/index.md"
+      - 常微分方程:
+        - "ODE/index.md"
+        - "ODE/20250218.md"
   #   - 数学物理方法:
   #     - "Mathematical_Physics/index.md"
   #   - 偏微分方程: 
