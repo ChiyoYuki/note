@@ -55,10 +55,10 @@ extra_javascript: #js文件
 
 nav:
   - "index.md"
-  - 临时博客:
-    - "blog/index.md"
-    - "blog/2025053122.md"
-    - "blog/2025061802.md"
+  #- 临时博客:
+  #  - "blog/index.md"
+  #  - "blog/2025053122.md"
+  #  - "blog/2025061802.md"
   - 数学:
     - 抽象代数:
       - "Abstract_Algebra/index.md"
@@ -113,7 +113,7 @@ nav:
   #     - "Electricity_Magnetism/index.md"
   #   - 波动学:
   #     - "Waves/index.md"
-  - 计算机:
+  #- 计算机:
   #   - 工具:
   #     - "Missing_Semester/index.md"
   #   - 数字电路:
@@ -130,9 +130,9 @@ nav:
   #     - "Operating_System/index.md"
   #   - 信息论:
   #     - "Information_Theory/index.md"
-    - Web 开发:
-      - "Web/index.md" 
-      - "Web/1.md" 
+  #  - Web 开发:
+  #    - "Web/index.md" 
+  #    - "Web/1.md" 
   - 日语:
     - "Japanese/index.md"
     - "Japanese/1.md"
