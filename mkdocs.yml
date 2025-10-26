@@ -1,9 +1,9 @@
 site_name: 千代雪のノート
-site_url: https://chiyoyuki.github.io/
+site_url: https://chiyoyuki.github.io/note/
 
 # 以下为仓库信息
-repo_url: https://github.com/chiyoyuki/chiyoyuki.github.io/
-repo_name: chiyoyuki/chiyoyuki.github.io/
+repo_url: https://github.com/chiyoyuki/note/
+repo_name: chiyoyuki/note
 
 theme:
   language: zh
