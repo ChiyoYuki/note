@@ -75,8 +75,9 @@ nav:
   #     - "Linear_Algebra/index.md"
   #   - 离散数学:
   #     - "Discrete_Mathematics/index.md"
-  #   - 初等数论:
-  #     - "Number_Theory/index.md"
+    - 初等数论:
+      - "Number_Theory/index.md"
+      - "Number_Theory/7.md"
   #   - 微积分:
   #     - "Calculus/index.md" 
     - 常微分方程:
