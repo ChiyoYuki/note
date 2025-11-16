@@ -92,8 +92,10 @@ nav:
   #     - "Numerical_Solutions_of_PDE/index.md"
   #   - 微分几何:
   #     - "Differentual_Grometry/index.md"
-  #   - 拓扑学基础:
-  #     - "Topology/index.md"
+    - 拓扑学基础:
+      - "Topology/index.md"
+      - "Topology/2.md"
+      - "Topology/9.md"
     - 实变函数:
       - "Real_Analysis/index.md"
       - "Real_Analysis/1.md"
