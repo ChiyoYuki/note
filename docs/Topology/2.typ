@@ -8,9 +8,9 @@ $RR, cal(B):{(a,b),(a,b)-K}, K={1/n | n in ZZ_+}$
 
 $cal(B)$ is a basis. 
 
-$(a,b) sect ((c,d)-K)=(max{a,c},min{b,d}) - K$
+$(a,b) inter ((c,d)-K)=(max{a,c},min{b,d}) - K$
 
-$((a,b)-K) sect ((c,d)-K)=(max{a,c},min{b,d}) - K$
+$((a,b)-K) inter ((c,d)-K)=(max{a,c},min{b,d}) - K$
 
 $cal(B)$ generate the $K$-topology in $RR$.
 
@@ -45,9 +45,9 @@ $cal(B)_2$ is a basis on $RR_n$.
 这里少张图
 
 $&((a_1,b_1) times dots times (a_n,b_n))
-sect 
+inter 
 ((c_1,d_1)times dots times (c_n, d_n))\ 
-=&((a_1,b_1) sect (c_1,d_1) times dots times (a_n,b_n) sect (c_n,d_n))
+=&((a_1,b_1) inter (c_1,d_1) times dots times (a_n,b_n) inter (c_n,d_n))
 in cal(B)_2$
 
 === Question:
@@ -73,9 +73,9 @@ Then $cal(C)$ is a basis that generates the given topology $cal(T)$.
     by assumption, $exists$ an open set $V$ in $cal(C)$,
     s.t. $x in V subset X$.
   
-  + Suppose $V_1, V_2 in cal(C)$. $V_1 sect V_2$ is open.
-    $forall x in V_1 sect V_2$, by assumption, $exists V_3 in cal(C)$,
-    s.t. $x in V_3 subset V_1 sect V_2$.
+  + Suppose $V_1, V_2 in cal(C)$. $V_1 inter V_2$ is open.
+    $forall x in V_1 inter V_2$, by assumption, $exists V_3 in cal(C)$,
+    s.t. $x in V_3 subset V_1 inter V_2$.
   So $cal(C)$ is a basis.
 
 + Suppose $cal(C)$ generates the topology $T_1$.
@@ -109,7 +109,7 @@ Then $cal(C)$ is a basis that generates the given topology $cal(T)$.
 == 2. Subspace
 
 $(X,cal(T))$ is a topol. space. $A subset X$.
-$cal(T)_A={U sect A | U in cal(T)}$
+$cal(T)_A={U inter A | U in cal(T)}$
 
 === Proposition
 
@@ -117,18 +117,18 @@ $cal(T)_A$ is a topology on $A$.
 
 ==== Pf:
 
-+ $emptyset in cal(T)_A (emptyset = emptyset sect A), 
-  A in cal(T)_A (A = X sect A).$
++ $emptyset in cal(T)_A (emptyset = emptyset inter A), 
+  A in cal(T)_A (A = X inter A).$
 
-+ $U_lambda sect A, lambda in Lambda$. 
++ $U_lambda inter A, lambda in Lambda$. 
   $U_lambda in cal(T).$
-  $union.big_(lambda in Lambda)(U_lambda sect A)
-  =(union.big_(lambda in Lambda)U_lambda) sect A
+  $union.big_(lambda in Lambda)(U_lambda inter A)
+  =(union.big_(lambda in Lambda)U_lambda) inter A
   in cal(T)_A$.
   Since $union.big_(lambda in Lambda) U_lambda in cal(T)$.
 
-+ $(U_1 sect A) sect (U_2 sect A) = (U_1 sect U_2) sect A in cal(T)_A,$
-  since $U_1 sect U_2 in T$.#h(1fr)$qed$
++ $(U_1 inter A) inter (U_2 inter A) = (U_1 inter U_2) inter A in cal(T)_A,$
+  since $U_1 inter U_2 in T$.#h(1fr)$qed$
 
 === Def:
 
@@ -138,7 +138,7 @@ $cal(T)_A$ is called the subspace (or induced) topology on $A$.
 
 === Eg:
 
-$ZZ subset RR_("std"), forall z in ZZ, {z}=(z-1/2,z+1/2) sect ZZ$ is open.
+$ZZ subset RR_("std"), forall z in ZZ, {z}=(z-1/2,z+1/2) inter ZZ$ is open.
 
 The induced topology on $ZZ$ is discrete.
 
@@ -152,17 +152,17 @@ $[0,0.3), (0.7,1]$ are open in the subspace topology.
 
 $(X,cal(T))$ is a topol. space, $cal(B)$ is a basis generate $cal(T)$.
 
-$A subset X, cal(B)_A={B sect A | B in cal(B)}$.
+$A subset X, cal(B)_A={B inter A | B in cal(B)}$.
 Then $cal(B)_A$ is a basis on $A$ 
 generating the subspace topology $cal(T)_A$.
 
 ==== Pf:
 
-+ $forall B in cal(B), B$ is open in $cal(T)$. So $B sect A in cal(T)_A$.
++ $forall B in cal(B), B$ is open in $cal(T)$. So $B inter A in cal(T)_A$.
 
-+ $forall U sect A in cal(T)_A$, where $U in cal(T)$.
-  $forall x in U sect A, exists B in cal(B)$, s.t. $x in B subset U.$
-  Then $x in B sect A subset U sect A$, where $B sect A in cal(B)_A$.
++ $forall U inter A in cal(T)_A$, where $U in cal(T)$.
+  $forall x in U inter A, exists B in cal(B)$, s.t. $x in B subset U.$
+  Then $x in B inter A subset U inter A$, where $B inter A in cal(B)_A$.
 
 By previous proposition, the lemma holds. #h(1fr)$qed$
 
@@ -186,17 +186,17 @@ Then $(cal(T)_A)_B = cal(T)_B$.
 - "$subset$"
 
   $forall U in (cal(T)_A)_B$, 
-  then $exists$ an open set $U_1 in cal(T)_A,$ s.t. $U=U_1 sect B$.
+  then $exists$ an open set $U_1 in cal(T)_A,$ s.t. $U=U_1 inter B$.
 
   Since $U_1 in cal(T)_A, exists$ an open set $U_2 in cal(T),$
-  s.t. $U_1 = U_2 sect A$. So $U = (U_2 sect A) sect B = U_2 sect B$.
+  s.t. $U_1 = U_2 inter A$. So $U = (U_2 inter A) inter B = U_2 inter B$.
   Therefore $U in cal(T)_B$.
 
 - "$supset$"
 
-  $forall U in cal(T)_B, U = U_2 sect B$, where $U_2 in cal(T)$. 
-  $U = (U_2 sect A) sect B$, 
-  where $U_2 sect A in cal(T)_A$. So $U in (cal(T)_A)_B$.#h(1fr)$qed$
+  $forall U in cal(T)_B, U = U_2 inter B$, where $U_2 in cal(T)$. 
+  $U = (U_2 inter A) inter B$, 
+  where $U_2 inter A in cal(T)_A$. So $U in (cal(T)_A)_B$.#h(1fr)$qed$
 
 == 3. Product Space
 
@@ -215,8 +215,8 @@ $cal(B)$ is a basis on $X times Y$.
 + $forall (x,y) in X times Y, (x,y) in X times Y in cal(B)$.
 
 + $U_1 times V_1, U_2 times V_2 in cal(B). 
-  (U_1 times V_1) sect (U_2 times V_2) 
-  = (U_1 sect U_2) times (V_1 sect V_2) in cal(B)$
+  (U_1 times V_1) inter (U_2 times V_2) 
+  = (U_1 inter U_2) times (V_1 inter V_2) in cal(B)$
 
   这里少张图
 
@@ -266,28 +266,28 @@ where $A, B$ are subspaces of $X, Y$, respectively.
 
 ==== Pf:
 
-$cal(B)={(U sect A) times (V sect B) | U "is open in" X, V "is open in" Y}$
+$cal(B)={(U inter A) times (V inter B) | U "is open in" X, V "is open in" Y}$
 generates teh product topol.
 
 We check that $cal(B)$ generates the induced topol. on $A times B$ as well.
 
-+ $(U sect A) times (V sect B) = (U times V) sect (A times B)$.
++ $(U inter A) times (V inter B) = (U times V) inter (A times B)$.
 
-  Since $U times V$ is open in $X times Y, (U sect A) times (V sect B)$
+  Since $U times V$ is open in $X times Y, (U inter A) times (V inter B)$
   is open in the the induced topology on $A times B$.
 
 + Suppose $W$ is open in the induced topol. on $A times B$.
 
-  Then $exists W_1$(open in $X times Y$), s.t. $W = W_1 sect (A times B)$.
+  Then $exists W_1$(open in $X times Y$), s.t. $W = W_1 inter (A times B)$.
 
-  $forall (x,y) in W = W_1 sect (A times B) subset W_1,
+  $forall (x,y) in W = W_1 inter (A times B) subset W_1,
   exists U_1("open in" X), V_1("open in" Y),$
   s.t. $(x,y) in U_1 times V_1 subset W_1$.
 
   So $(x,y) in 
-  underbracket((U_1 times V_1) sect (A times B),
-  =(U_1 sect A) times (V_1 sect B) in B) 
-  subset W_1 sect (A times B) = W$
+  underbracket((U_1 times V_1) inter (A times B),
+  =(U_1 inter A) times (V_1 inter B) in B) 
+  subset W_1 inter (A times B) = W$
   #h(1fr)$qed$
 
 === Eg
@@ -348,16 +348,16 @@ $X$ is a topol. space, then
 
 + $emptyset$ and $X$ are closed;
 
-+ Arbitrary intersection of closed sets is closed;
++ Arbitrary interinterion of closed sets is closed;
 
   $C_lambda, lambda in Lambda$ is closed in $X$. 
-  $X - sect.big_(lambda in Lambda)C_lambda 
+  $X - inter.big_(lambda in Lambda)C_lambda 
   = union.big_(lambda in Lambda)(X-C_lambda)$ is open in $X$.
-  So $sect.big_(lambda in Lambda)C_lambda$ is closed in $X$.
+  So $inter.big_(lambda in Lambda)C_lambda$ is closed in $X$.
 
 + The union of finitely many closed sets is closed.
   
-  $C_1, C_2$ is closed in $X$, $X-(C_1 union C_2) = (X - C_1) sect (X - C_2)$
+  $C_1, C_2$ is closed in $X$, $X-(C_1 union C_2) = (X - C_1) inter (X - C_2)$
   is open in $X$. So $C_1 union C_2$ is closed in $X$.
 
 === Eg
@@ -390,19 +390,19 @@ No such $n$ exists. Contradction!
 $(X,cal(T)):$ topol. space, $A subset X, (A,cal(T)_A):$ subspace.
 
 Then $C subset A$ is closed in $(A,cal(T)_A) 
-<=> exists$ a closed set $C_1$ in $X$, s.t. $C = C_1 sect A$.
+<=> exists$ a closed set $C_1$ in $X$, s.t. $C = C_1 inter A$.
 
 ==== Pf
 
 $&C "is closed in" (A,cal(T)_A)\
 <=>&A-C "is open in" (A,cal(T)_A)\
-<=>&exists "an open set" U_1 "in" X, "s.t." A - C = U_1 sect A 
-"i.e." C=(X-U_1)sect A$
+<=>&exists "an open set" U_1 "in" X, "s.t." A - C = U_1 inter A 
+"i.e." C=(X-U_1)inter A$
 
 这里少张图
 
 Here $X - U_1$ is closed in $X$. Set $C_1 = X- U_1$.
-Then $C = C_1 sect A$.#h(1fr)$qed$
+Then $C = C_1 inter A$.#h(1fr)$qed$
 
 == 5. Hausdorff
 
@@ -414,7 +414,7 @@ $exists$ disjoint nbhds $U$ and $V$ of $x$ and $y$ respectively.
 
 这里少张图
 
-$U sect V = emptyset$
+$U inter V = emptyset$
 
 === Eg
 
@@ -434,7 +434,7 @@ If $X$ is Hausdorff, then every single point set is closed.
 $forall {x} subset X$, we show that $X \\ {x}$ is open.
 $forall y in X \\ {x}, y != x$. Since $X$ is Hausdorff,
 $exists$ nbhd $U_y$ of $y$, nbhd $U_x$ of $x$, s.t. 
-$U_x sect U_y = emptyset$. $y in U_y subset x \\ {x}$.
+$U_x inter U_y = emptyset$. $y in U_y subset x \\ {x}$.
 So $X \\ {x}$ is open, and ${x}$ is closed.
 
 === Eg
@@ -446,7 +446,7 @@ $RR, cal(B) = {[n,n+1) | n in ZZ}$ generates $cal(T), cal(T)$ is not Hausdorff.
 $RR_"fc"$ is not Hausdorff.(every single point set is closed)
 
 $x != y in RR$. Suppose $exists$ nbhds $U_x$ of $x$, $U_y$ of $y$,
-s.t. $U_x sect U_y = emptyset$, them $underbracket(U_y,"infinite") 
+s.t. $U_x inter U_y = emptyset$, them $underbracket(U_y,"infinite") 
 subset underbracket(RR - U_x,"finite")$. 
 Contradction! #h(1fr)$qed$
 

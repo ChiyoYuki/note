@@ -6,7 +6,7 @@ Original form: $a != -1 "sq. free"$, $exists inf$ many $p$ such $a$ is a primiti
 
 $ C=product_p (1-1/(p(p-1)))=0.3739... $
 
-==== Problem
+*Problem*
 
 Suppose that $p,q>0$ are odd primes with $q=4p+1$.\
 Prove that $2$ is a primitive root $mod q$. (HW)
@@ -57,9 +57,9 @@ $
 One can further factonze $C_(p^(e-1)(p-1))$.
 In general, we have $ C_m tilde.rev.equiv product_(p^e||m) C_(p^e) $
 
-HW: Solve the congruence $x^5 equiv 7 mod 18$.
+*HW: Solve the congruence $x^5 equiv 7 mod 18$.*
 
-HW: Find an integer which is a primitive root $mod 2 dot 11^e$ for all $e>=1$.
+*HW: Find an integer which is a primitive root $mod 2 dot 11^e$ for all $e>=1$.*
 
 === Def 9.4.
 
@@ -93,9 +93,9 @@ If $f>1$, then $p|n-1$ as well.
 But this is impossible since $p|n$.
 Hence $f$ is at most $1$.
 
-HW: 6.18, 6.20.
+*HW: 6.18, 6.20.*
 
-HW: Find all $a$ such that $x mapsto x^a$ is a ring isomorphism for $ZZ_11$.
+*HW: Find all $a$ such that $x mapsto x^a$ is a ring isomorphism for $ZZ_11$.*
 
 == 9.1
 
@@ -194,7 +194,7 @@ The two sets must be equal.
 
 To explicitly final the square roots of $a in U_(p^e)$, one can use Hensel's Lemma(Theorem 6.11).
 
-HW: 7.15
+*HW: 7.15*
 
 === Theorem 9.17
 

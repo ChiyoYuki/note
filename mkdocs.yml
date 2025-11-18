@@ -40,12 +40,17 @@ plugins:
 
 markdown_extensions: # markdown扩展插件
   - admonition # 启用注释语法扩展
+  - footnotes
   - pymdownx.arithmatex: # 数学公式支持
       generic: true
   - pymdownx.caret # 下划线与上标
   - pymdownx.details # 启用注释语法扩展
   - pymdownx.mark # 强调
-  - pymdownx.superfences # 启用注释语法扩展
+  - pymdownx.superfences: # 启用注释语法扩展
+      custom_fences: # 添加 mermaid 流程图支持
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tilde # 删除线与下标
   - meta #waline需要，参见https://github.com/squidfunk/mkdocs-material/discussions/4166
 
@@ -79,6 +84,7 @@ nav:
       - "Number_Theory/index.md"
       - "Number_Theory/7.md"
       - "Number_Theory/9.md"
+      - "Number_Theory/a.md"
   #   - 微积分:
   #     - "Calculus/index.md" 
     - 常微分方程:
