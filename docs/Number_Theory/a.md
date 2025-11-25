@@ -169,7 +169,8 @@ equal.
 
 Let use Gauss's lemma to compute $\left( \frac{11}{29} \right)$.
 $P = \left\{ 1,2,\ldots,14 \right\}$ and
-$11P = \left\{ 11,22,14 \cdot 11 \right\} = \left\{ 11, - 7,4, - 14, - 3,8, - 10,1,12, - 6,5, - 13, - 2,9 \right\}.\left( \frac{11}{29} \right){= ( - 1)}^{7} = - 1$
+$11P = \left\{ 11,22,14 \cdot 11 \right\} = \left\{ 11, - 7,4, - 14, - 3,8, - 10,1,12, - 6,5, - 13, - 2,9 \right\}.$
+$\left( \frac{11}{29} \right){= ( - 1)}^{7} = - 1$
 
 ### Corollary 10.11
 
