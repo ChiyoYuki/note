@@ -40,7 +40,7 @@ plugins:
 
 markdown_extensions: # markdown扩展插件
   - admonition # 启用注释语法扩展
-  - footnotes
+  - footnotes # 添加页脚引用
   - pymdownx.arithmatex: # 数学公式支持
       generic: true
   - pymdownx.caret # 下划线与上标
@@ -82,6 +82,7 @@ nav:
   #     - "Discrete_Mathematics/index.md"
     - 初等数论:
       - "Number_Theory/index.md"
+      - "Number_Theory/1.md"
       - "Number_Theory/7.md"
       - "Number_Theory/9.md"
       - "Number_Theory/a.md"
