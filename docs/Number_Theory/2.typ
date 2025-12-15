@@ -2,7 +2,7 @@
 
 === Def 2.1
 
-An integral $p > 1$ is said to be prime iff. the only positive divisors of
+An integer $p > 1$ is said to be prime iff. the only positive divisors of
 $p$ are $1$ and $p$ itself.
 
 It is easy to see that an integer $n$ is composite iff it is divisible by some
@@ -69,7 +69,7 @@ $cases(
   a=p_1^(e_1) dots p_j^(e_j),
   b=p_1^(f_1) dots b_j^(f_j)
 )
-(e_i, f_j >=0) => m=p_1^(2e_1-2f_1) dots p_j^(2(e_j-f_j))$ is a perfect square.(S) #footnote[没看清具体是什么，大概是类似qed的符号]<fn1>
+(e_i, f_j >=0) => m=p_1^(2e_1-2f_1) dots p_j^(2(e_j-f_j))$ is a perfect square.$arrow.zigzag$
 
 === Theorem 2.7 (Euclid)
 
@@ -99,7 +99,8 @@ Consider $m=4 p_1 p_2 dots p_s - 1$ being composite.
 There must be a prime factor $q$ of $m$ of the form $4q-1$
 (If all prime factors are $4q+1$, then their product must be $4k+1$)
 
-Then $q|m => q|1$ (S)@fn1
+Then $q|m => q|1 arrow.zigzag$
+
 
 === Problem 2.9
 
