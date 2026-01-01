@@ -5,6 +5,8 @@ site_url: https://note.chiyo.uk
 repo_url: https://github.com/chiyoyuki/note/
 repo_name: chiyoyuki/note
 
+copyright: '<a href="https://icp.gov.moe/?keyword=20260421" target="_blank">萌ICP备20260421号</a>'
+
 theme:
   language: zh
   name: material # 设定主题为 material
